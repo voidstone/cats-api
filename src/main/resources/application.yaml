@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5444/cats-api
+    username: admin
+    password: password
+
+    springdoc:
+      api-docs:
+        path=/api-docs
